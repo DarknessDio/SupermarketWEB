@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Index Pay Mode";
 }
-<h1>Index Categories</h1>
+<h1>Index Pay Mode</h1>
 <p>
      <a asp-page="Create" class="btn btn-success">Create New</a> 
 </p>
@@ -31,7 +31,7 @@
                 </td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-                    @* <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a> *@
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
                 </td> 
             </tr>
         }
