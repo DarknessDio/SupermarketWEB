@@ -41,6 +41,10 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Category.Name)
                 </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                    
+                </td>
             </tr>
         }
     </tbody>
